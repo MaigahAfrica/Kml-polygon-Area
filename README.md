@@ -6,7 +6,7 @@ This simple, offline Python app scans a folder of `.kml` files, extracts polygon
 **Example output columns:**
 ```
 Plot_ID,Area_ha,Latitude,Longitude,Source_File
-WAFCOS-AS-AB007-P02,0.29,6.001024,-2.330695,blocks/AB007.kml
+P007-P02,0.29,6.001024,-2.330695,blocks/p007.kml
 ```
 
 ## Quick Start (CLI)
@@ -20,7 +20,7 @@ WAFCOS-AS-AB007-P02,0.29,6.001024,-2.330695,blocks/AB007.kml
 
 The script uses a spherical Earth approximation (no external libraries). For typical farm-sized polygons, the error is generally small (within a few percent).
 
-## Streamlit mini-app (optional UI)
+## Streamlit mini-app
 
 If you prefer a UI and have Streamlit installed:
 
